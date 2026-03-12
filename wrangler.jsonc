@@ -1,0 +1,9 @@
+{
+  // Mirror of wrangler.toml for Pages (JSONC format)
+  // Cloudflare will use either file; keeping both helps different workflows
+  "name": "portfolio",
+  "compatibility_date": "2026-03-12",
+  "compatibility_flags": ["nodejs_compat"],
+  // For Pages with next-on-pages: static output directory
+  "pages_build_output_dir": ".vercel/output/static",
+}
