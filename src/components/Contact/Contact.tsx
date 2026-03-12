@@ -275,7 +275,6 @@ export default function ContactSection() {
                     required
                   />
                 </div>
-
                 <MadeByShapeButton
                   type="submit"
                   className="cursor-pointer col-span-1 sm:col-span-2"
