@@ -1,0 +1,11 @@
+name = "portfolio"
+compatibility_date = "2026-03-12"
+compatibility_flags = ["nodejs_compat"]
+
+# Cloudflare Pages dynamic output directory (Next-on-Pages)
+# Must point to the static directory inside .vercel/output
+pages_build_output_dir = ".vercel/output/static"
+
+# Ensure your Pages project also enables the nodejs_compat flag in the dashboard
+
+
