@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=PT+Serif:wght@400;700&family=Cormorant:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-cinzel: 'Cinzel Decorative', serif;
+  --font-pacifico: 'Pacifico', serif;
+
+  --bg-primary: #ebe4e3;
+  --bg-blue: #1b1b1b;
+  --text-dark: #211f1e;
+  --text-light: #ddd8d6;
+  --text-muted: #8f8b86;
+  --accent-pink: #e6e1de;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* @media (min-width: 768px) {
+  * {
+    cursor: none;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  body {
+    cursor: auto;
+  }
+} */
+
+body {
+  /* font-family: 'PT Serif', serif; */
+  line-height: 1.6;
+  overflow-x: hidden;
+}
