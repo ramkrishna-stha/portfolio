@@ -1,9 +1,16 @@
 {
-  // Mirror of wrangler.toml for Pages (JSONC format)
-  // Cloudflare will use either file; keeping both helps different workflows
+  // Project name
   "name": "portfolio",
+
+  // Build output directory for Pages (static files)
+  "assets": {
+    "directory": "./dist",
+  },
+
+  // Cloudflare Pages does not need a Worker entry file if only deploying static assets
   "compatibility_date": "2026-03-12",
   "compatibility_flags": ["nodejs_compat"],
-  // For Pages with next-on-pages: static output directory
+
+  // For Next-on-Pages, point to static output
   "pages_build_output_dir": ".vercel/output/static",
 }
