@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "pages:build": "npx @cloudflare/next-on-pages",
+    "deploy:pages": "next build && npx wrangler pages deploy .vercel/output/static portfolio",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write ."

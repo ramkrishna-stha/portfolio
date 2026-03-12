@@ -3,9 +3,9 @@
   "name": "portfolio",
 
   // Build output directory for Pages (static files)
-  "assets": {
-    "directory": "./dist",
-  },
+  //   "assets": {
+  //     "directory": "./dist",
+  //   },
 
   // Cloudflare Pages does not need a Worker entry file if only deploying static assets
   "compatibility_date": "2026-03-12",
